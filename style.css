@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+
+.container{
+    
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    text-align: center;
+
+}
+#img1{
+    position: absolute;
+    height: 100vh;
+    margin-left: 32pc;
+    
+
+
+}
+#heading{
+    width: 100vw;
+    color: white;
+    margin-top: 2%;
+    font-size: 40px;
+    font-weight: 1000;
+    text-shadow: 0 0 3px black, 0 0 5px white;
+    font-weight: bold;
+    
+    
+}
+
+.input{
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 25%;
+    
+    
+}
+#textBox{
+    width: 10pc;
+    height: 2pc;
+    border-width: 10px;
+    border-color: yellow;
+    margin: 10%;
+
+
+}
+#textLabel{
+    color: white;
+    font-family: 'Rubik Moonrocks', cursive;;
+    position: absolute;
+    margin-top: 31%;
+    margin-left: 35%;
+    border-bottom: 2px solid yellow;
+}
+#checkButton{
+    border: 4px solid black;
+    border-radius: 20px;
+    border-style:groove;
+    border-width: 10px;
+    width: 50%;
+    margin-bottom: 10%;
+}
+#attemptCount{
+    padding-top: 37%;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+#lose1{
+    width: 30%;
+    border: 2px solid black;
+    border-width: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    color: red;
+    text-align: center;
+    font-size: 4pc;
+}
+#losebody{
+    background-color: yellow;
+}
+
+
+#winbody{
+    text-align: center;
+    position: relative;
+    /* background-color: rgb(242, 122, 10); */
+    
+
+}
+#win1{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 10%;
+    font-size: 5pc;
+    width: 20%;
+    padding: 5% 1%;
+    color: white;
+    text-shadow: 0px 0px 10px red, 0 0 5px yellow;
+
+    
+}
+#windiv{
+    background-image: url(./assets/bokeh-lights-glitter-background_1048-8548.webp);
+}
+#windiv img{
+    height: 100vh;
+    
+    
+}
+
+
+
